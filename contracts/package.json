@@ -29,8 +29,8 @@
     "very-simple-zkapp-devnet-event": "npm run build && node --experimental-vm-modules build/src/others/learn-events/very-simple-zkapp-devnet-event.js",
     "simple-zkapp": "npm run build && node --experimental-vm-modules build/src/others/simple-zkapp.js",
     "program-on-vote": "npm run build && node --experimental-vm-modules build/src/others/program-on-vote.js",
+    "program-on-vote-task2": "npm run build && node --experimental-vm-modules build/src/others/task2/vote.js",
     "simple-zkapp-vesting": "npm run build && node --experimental-vm-modules build/src/others/simple-zkapp-vesting.js",
-    "token-contract-sample":"npm run build && node --experimental-vm-modules build/src/others/token-contract-sample.js",
     "transfer-batch": "npm run build && cross-env TEST_ON_BERKELEY=true SENDER_KEY=*** node --experimental-vm-modules build/src/others/transfer-batch.js"
   },
   "devDependencies": {
@@ -48,7 +48,7 @@
     "cross-env": "^7.0.3"
   },
   "peerDependencies": {
-    "o1js": "^2.*"
+    "o1js": "^1.9.*"
   },
   "engines": {
     "node": ">=18.14.0"
